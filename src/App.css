@@ -1,9 +1,33 @@
 h1 {
-  margin: 150px;
-  font-weight: 900;
-  font-size: 105px;
+  margin: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 90px;
+  color: rgb(49, 215, 215);
+  -webkit-text-stroke: 1px #023047;
 }
 
-.container text-center{
-  margin: 10px;
+body {
+  background-color: #FFF7AE;
+}
+
+input{
+  width: 100%;
+}
+
+.row{
+  margin: 10px 5px;
+  justify-content: center;
+}
+
+.container{
+  text-align: left;
+}
+
+button{
+  width: 60%;
+}
+
+.end{
+  text-align: center;
 }

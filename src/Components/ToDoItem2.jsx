@@ -1,6 +1,6 @@
-function ToDoItem1() {
-  let taskname = "college";
-  let taskdate = "14/08/24";
+function ToDoItem2() {
+  let taskname = "Project";
+  let taskdate = "13/08/24";
 
   return (
     <div className="grid-container">
@@ -17,4 +17,4 @@ function ToDoItem1() {
   );
 }
 
-export default ToDoItem1;
+export default ToDoItem2;

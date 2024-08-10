@@ -1,15 +1,15 @@
 function AddToDo() {
   return (
-    <div class="container text-center">
-      <div class="row justify-content-md-center">
-        <div class="col-md-auto">
-          <input type="text" placeholder="Note task here" />
+    <div className="grid-container">
+      <div className="row">
+        <div className="col-4">
+          <input type="text" placeholder="Add task here" />
         </div>
-        <div class="col col-lg-2">
+        <div className="col-2">
           <input type="date" name="date" id="date" />
         </div>
-        <div class="col col-lg-2">
-          <button type="button" class="btn btn-success">
+        <div className="end col-2">
+          <button type="button" className="btn btn-success">
             Add
           </button>
         </div>

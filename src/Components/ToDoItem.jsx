@@ -1,7 +1,4 @@
-function ToDoItem1() {
-  let taskname = "college";
-  let taskdate = "14/08/24";
-
+function ToDoItem({ taskname, taskdate }) {
   return (
     <div className="grid-container">
       <div className="row">
@@ -17,4 +14,4 @@ function ToDoItem1() {
   );
 }
 
-export default ToDoItem1;
+export default ToDoItem;
